@@ -1,0 +1,24 @@
+TUGAS 02 
+PENYEDERHANAAN CFG DAN BENTUK NORMAL
+
+1. Diberikan tata bahasa bebas konteks G dengan aturan produksi sebagai berikut
+S -> aA | aBB
+A -> aaA | 𝜆
+B -> bB | bbC
+C -> B
+	a. Sederhanakan tata bahasa bebas konteks tersebut!
+	b. Tentukan bahasa yang dihasilkan oleh tata bahasa bebas konteks tersebut!
+	c. Tentukan bentuk normal Chomsky dari tata bahasa bebas konteks tersebut!
+
+
+2. G = ( V, T, S, P) dengan V = { S, A }, S = S, T = { a,b } dan 
+                      P:{(S→aA
+                      A→abS | b)
+Apakah tatabahasa bebas konteks tersebut sudah dalam bentuk normal Chomsky! Kalau belum buatlah dalam bentuk Normal Chomsky!
+Jawab: 
+	Tatabahasa di atas belum termasuk dalam Bentuk Normal Chomsky, karena produksi yang dihasilkan tidak memenuhi aturan CNF, karena pada produksi S  aA mengandung kombinasi terminal ‘a’ dengan variabel ‘A’ dalam satu produksi yang sama, hal ini melanggar aturan CNF dimana tidak boleh ada produksi yang mengandung campuran terminal dan variabel. Sebagai contoh lain A  abS | b, dimana terminal juga bercampur dengan variabel S.
+	
+	Sehingga untuk mengubah tata bahasa tersebut ke Bentuk Normal Chomsky, diperlukan untuk melakukan langkah – langkah berikut:
+
+ 
+
